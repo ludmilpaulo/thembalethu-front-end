@@ -1,6 +1,7 @@
+import { FaFacebook, FaGithub, FaReddit } from 'react-icons/fa';
 import React, { useEffect, useState } from 'react';
+
 import Image from 'next/image';
-import { FaReddit, FaFacebook, FaGithub } from 'react-icons/fa';
 import { fetchData } from '../utils/sample-data';
 
 interface TeamMember {
@@ -44,7 +45,7 @@ const Team: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {aboutData.map((teamMember) => (
-              <div key={teamMember.id} className="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+              <div key={teamMember.id} className="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#16428f] dark:border-gray-700 dark:hover:border-transparent">
                 <div className="relative rounded-full ring-4 ring-gray-300">
                   <Image src={teamMember.image} alt={teamMember.name} width={100} height={100} />
                 </div>

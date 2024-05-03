@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full py-8 bg-black dark:bg-gray-800">
+    <footer className="w-full py-8 bg-[#16428e] dark:bg-gray-800">
       <div className="max-w-screen-xl px-4 mx-auto">
         <ul className="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light">
           {/* Other links remain the same */}

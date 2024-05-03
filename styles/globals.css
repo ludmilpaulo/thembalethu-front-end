@@ -22,3 +22,81 @@
 .chat-icon {
   @apply fixed bottom-10 right-10 bg-green-500 text-white border-none p-4 rounded-full text-xl cursor-pointer;
 }
+.hero-section {
+  height: 100vh;
+  
+  color: white;
+  
+  background-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url('../assets/thembalethu-hero-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section-secondary {
+  border-bottom: #000;
+  
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+  
+  font-size: 1.4em;
+  
+  letter-spacing: 9px;
+}
+h1 {
+  margin: 0 0 3rem 0;
+  font-family: 'Varta', sans-serif;
+}
+
+nav {
+  padding: 1em 1em;
+  transition: all .3s;
+}
+
+nav:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.logo {
+  flex: 1 0 auto; 
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.logo:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+li {
+  margin-right: 25px;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #ff9800;
+}
+
+.nav-link:active {
+  transform: scale(1);
+}
