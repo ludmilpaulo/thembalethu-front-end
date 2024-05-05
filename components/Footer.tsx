@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-center pt-10 font-light text-center text-white dark:text-gray-200 sm:pt-12">
-        Created by Maindo
+       <a href="https://www.maindodigital.com/"> Created by Maindo</a>
       </div>
     </footer>
   );
